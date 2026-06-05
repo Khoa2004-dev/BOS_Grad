@@ -9,6 +9,7 @@ const RSVPForm = () => {
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const canvasRef = useRef(null);
 
   const handleSelectMember = (member) => {
@@ -23,13 +24,52 @@ const RSVPForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!selectedMember) {
       alert("Please select a team member first!");
       return;
     }
-    setSubmitted(true);
+    
+    setIsSubmitting(true);
+    try {
+      const response = await fetch('/api/rsvp', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          memberId: selectedMember.id,
+          memberName: selectedMember.name,
+          attending: formData.attending,
+          message: formData.message,
+        }),
+      });
+
+      let result = {};
+      const contentType = response.headers.get('content-type');
+      if (contentType && contentType.includes('application/json')) {
+        try {
+          result = await response.json();
+        } catch (e) {
+          console.error('Failed to parse JSON response:', e);
+        }
+      } else {
+        const text = await response.text();
+        console.warn('Non-JSON response received:', text);
+      }
+
+      if (!response.ok) {
+        throw new Error(result.error || `Failed to submit RSVP (Status ${response.status})`);
+      }
+
+      setSubmitted(true);
+    } catch (error) {
+      console.error('RSVP submission error:', error);
+      alert(`Error submitting RSVP: ${error.message}`);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleReset = () => {
@@ -303,9 +343,9 @@ const RSVPForm = () => {
             <button 
               type="submit" 
               className="btn-submit"
-              disabled={!selectedMember}
+              disabled={!selectedMember || isSubmitting}
             >
-              Confirm RSVP {selectedMember ? `as ${selectedMember.name}` : ''}
+              {isSubmitting ? 'Saving RSVP...' : `Confirm RSVP ${selectedMember ? `as ${selectedMember.name}` : ''}`}
             </button>
           </form>
         </div>

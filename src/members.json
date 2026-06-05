@@ -23,7 +23,7 @@
   {
     "id": "minh_quy",
     "name": "Minh Quy",
-    "role": "Minh Quy",
+    "role": "Minh Quy?",
     "successMsg": "Cực kỳ háo hức được gặp Minh Quý tại lễ tốt nghiệp luôn nha! 🎓🎉",
     "sadMsg": "Minh Quý không tham gia được ư? Mong sớm gặp lại bạn dịp khác nhé! 😢"
   },
@@ -65,14 +65,14 @@
   {
     "id": "thoi_toan",
     "name": "Thoi Toan",
-    "role": "Team Member",
+    "role": "Mua bat chot",
     "successMsg": "Thời Toàn lên nhận bằng thôi nào! Rất mong chờ gặp bạn! 🎓🥳",
     "sadMsg": "Thời Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho team đây? Buồn ghê! 😢"
   },
   {
     "id": "hoang_le",
     "name": "Hoang Le",
-    "role": "Team Member",
+    "role": "Dang cap",
     "successMsg": "Hoàng Lê đã có mặt! Sẵn sàng bùng nổ ngày lễ tốt nghiệp! 🎓💥",
     "sadMsg": "Hoàng Lê không đi được sao? Cả team sẽ nhớ bạn nhiều lắm! 😢"
   },
