@@ -3,98 +3,98 @@
     "id": "viet_nhat",
     "name": "Viet Nhat",
     "role": "Mother of the team",
-    "successMsg": "Cùng quẩy hết mình thôi Việt Nhật ơi! Graduation day awaits! 🎓✨",
-    "sadMsg": "Thiếu Việt Nhật thì ai gánh team đây? Buồn quá đi mà! 😢"
+    "successMsg": "Cùng quẩy hết mình thôi anh Nhật ơi! Graduation day awaits! 🎓✨",
+    "sadMsg": "Thiếu anh Nhật thì ai gánh team đây? Buồn quá đi mà! 😢"
   },
   {
     "id": "thanh_huy",
     "name": "Thanh Huy",
     "role": "Father of the team",
-    "successMsg": "Tuyệt vời quá Thanh Huy ơi, chuẩn bị lên đồ đi nhận bằng thôii! 🎓🔥",
-    "sadMsg": "Ơ Thanh Huy không đi thật sao? Team sẽ nhớ bạn nhiều lắm đó! 😢"
+    "successMsg": "Tuyệt vời quá anh Huy ơi, chuẩn bị lên đồ đi thôii! 🎓🔥",
+    "sadMsg": "Ơ anh Huy không đi thật sao? Team sẽ nhớ anh nhiều lắm đó! 😢"
   },
   {
     "id": "nhat_quang",
     "name": "Nhat Quang",
     "role": "Sunlight",
-    "successMsg": "Chào mừng Nhật Quang! Ngày đặc biệt này không thể thiếu bạn được! 🎓🌟",
-    "sadMsg": "Buồn quá Nhật Quang ơi, không có bạn thì ai làm sáng bừng sân khấu đây? 😢"
+    "successMsg": "Chào mừng anh Quang! Ngày đặc biệt này không thể thiếu anh được! 🎓🌟",
+    "sadMsg": "Buồn quá anh Quang ơi, không có anh thì ai làm sáng bừng sân khấu đây? 😢"
   },
   {
     "id": "minh_quy",
     "name": "Minh Quy",
     "role": "Minh Quy?",
-    "successMsg": "Cực kỳ háo hức được gặp Minh Quý tại lễ tốt nghiệp luôn nha! 🎓🎉",
-    "sadMsg": "Minh Quý không tham gia được ư? Mong sớm gặp lại bạn dịp khác nhé! 😢"
+    "successMsg": "Cực kỳ háo hức được gặp anh Quý tại lễ tốt nghiệp luôn nha! 🎓🎉",
+    "sadMsg": "Ơ anh Quý không tham gia được ư? Mong sớm gặp lại anh ở dịp khác nhé! 😢"
   },
   {
     "id": "thai_thong",
     "name": "Thai Thong",
-    "role": "Team Member",
-    "successMsg": "Lên đồ chuẩn bị đi thôi Thái Thông ơi! Let's make memories! 🎓💫",
-    "sadMsg": "Thiếu Thái Thông buổi lễ bớt vui đi một nửa rồi. Tiếc quá đi! 😢"
+    "role": "Thong Thai",
+    "successMsg": "Lên đồ chuẩn bị đi thôi anh Thông ơi! Let's make memories! 🎓💫",
+    "sadMsg": "Thiếu anh Thông buổi lễ bớt vui đi một nửa rồi. Tiếc quá đi! 😢"
   },
   {
     "id": "thanh_phong",
     "name": "Thanh Phong",
     "role": "A talent in kernel dev",
     "successMsg": "Thanh Phong sẽ đến và mang theo làn gió mới! Hẹn gặp bạn nhé! 🎓🍃",
-    "sadMsg": "Thanh Phong không tham gia được ư? Buồn quá, thiếu mất một cơn gió mát lành rồi! 😢"
+    "sadMsg": "Ớ Phong không tham gia được ư? Ở lại dev kernel à! 😢"
   },
   {
     "id": "nhat_minh",
     "name": "Nhat Minh",
-    "role": "Team Member",
-    "successMsg": "Có Nhật Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
-    "sadMsg": "Sao lại vắng mặt thế Nhật Minh ơi? Team mong gặp bạn lắm đó! 😢"
+    "role": "Vua co",
+    "successMsg": "Có Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
+    "sadMsg": "Sao lại vắng mặt thế Minh ơi? Team mong gặp bạn lắm đó! 😢"
   },
   {
     "id": "van_thuong",
     "name": "Van Thuong",
-    "role": "Team Member",
-    "successMsg": "Văn Thương đã sẵn sàng chưa? Ngày của chúng ta tới rồi! 🎓🚀",
-    "sadMsg": "Văn Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng! 😢"
+    "role": "",
+    "successMsg": "Anh Thương đã sẵn sàng chưa? Ngày của chúng ta tới rồi! 🎓🚀",
+    "sadMsg": "Anh Thương bận mất rồi sao? Bữa tiệc sẽ thiếu đi một mảnh ghép quan trọng! 😢"
   },
   {
     "id": "thai_bach",
     "name": "Thai Bach",
-    "role": "Team Member",
-    "successMsg": "Thái Bạch đã xác nhận tham gia! Cùng lưu giữ khoảnh khắc đẹp nhé! 🎓📸",
-    "sadMsg": "Tiếc quá Thái Bạch ơi! Class photo lần này sẽ nhớ bạn lắm đây! 😢"
+    "role": "",
+    "successMsg": "Anh Bách đã xác nhận tham gia! Cùng lưu giữ khoảnh khắc đẹp nhé! 🎓📸",
+    "sadMsg": "Tiếc quá anh Bách ơi! Tụi em sẽ nhớ anh lắm đây! 😢"
   },
   {
     "id": "thoi_toan",
     "name": "Thoi Toan",
     "role": "Mua bat chot",
-    "successMsg": "Thời Toàn lên nhận bằng thôi nào! Rất mong chờ gặp bạn! 🎓🥳",
-    "sadMsg": "Thời Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho team đây? Buồn ghê! 😢"
+    "successMsg": "Anh Toàn lên đi thôi nào! Rất mong chờ gặp anh! 🎓🥳",
+    "sadMsg": "Anh Toàn vắng mặt rồi, ai sẽ tạo tiếng cười cho team đây? Buồn ghê! 😢"
   },
   {
     "id": "hoang_le",
     "name": "Hoang Le",
     "role": "Dang cap",
-    "successMsg": "Hoàng Lê đã có mặt! Sẵn sàng bùng nổ ngày lễ tốt nghiệp! 🎓💥",
-    "sadMsg": "Hoàng Lê không đi được sao? Cả team sẽ nhớ bạn nhiều lắm! 😢"
+    "successMsg": "Đẳng cấp vậy? 🎓💥",
+    "sadMsg": "Anh Lê không đi được sao? Cả team sẽ nhớ anh nhiều lắm! 😢"
   },
   {
     "id": "thien_phu",
     "name": "Thien Phu",
-    "role": "Team Member",
-    "successMsg": "Thiên Phú tới là quẩy banh nóc luôn! Rất vui vì bạn sẽ tham gia! 🎓🎈",
+    "role": "",
+    "successMsg": "Thiên Phú tới là quẩy banh nóc luôn! Rất vui vì em sẽ tham gia! 🎓🎈",
     "sadMsg": "Thiên Phú không đi được ư? Mất đi một tay quẩy của team rồi, buồn quá! 😢"
   },
   {
     "id": "gia_nguyen",
     "name": "Gia Nguyen",
-    "role": "Team Member",
-    "successMsg": "Gia Nguyên đã sẵn sàng! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
-    "sadMsg": "Gia Nguyên lỡ hẹn rồi sao? Chúc bạn luôn thành công và sớm gặp lại! 😢"
+    "role": "",
+    "successMsg": "Gia Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
+    "sadMsg": "Gia Nguyên lỡ hẹn rồi sao? Chúc bạn luôn thành công vsà sớm gặp lại! 😢"
   },
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
-    "role": "Team Member",
-    "successMsg": "Quá đã Thanh Thiên ơi! Hẹn gặp bạn tại hội trường UIT nha! 🎓🏫",
-    "sadMsg": "Thanh Thiên không đi được sao? Thật sự rất tiếc nuối luôn đó! 😢"
+    "role": "",
+    "successMsg": "Làm sao anh đi được??? 🎓🏫",
+    "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh để chúc mừng quá đi mất! 😢"
   }
 ]
