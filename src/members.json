@@ -2,21 +2,21 @@
   {
     "id": "viet_nhat",
     "name": "Viet Nhat",
-    "role": "Mother of the team",
-    "successMsg": "Cùng quẩy hết mình thôi anh Nhật ơi! Graduation day awaits! 🎓✨",
+    "role": "Team Mom",
+    "successMsg": "Quá tuyệt vời anh Nhật ơi! Cảm ơn anh vì đã luôn dẫn dắt, hỗ trợ và đồng hành cùng tụi em trong suốt chặng đường vừa qua. Ngày đặc biệt này sẽ không trọn vẹn nếu thiếu anh. Hẹn gặp anh tại lễ tốt nghiệp nhé! 🎓✨",
     "sadMsg": "Thiếu anh Nhật thì ai gánh team đây? Buồn quá đi mà! 😢"
   },
   {
     "id": "thanh_huy",
-    "name": "Thanh Huy",
-    "role": "Father of the team",
+    "name": "Team Dad",
+    "role": "Team Dad",
     "successMsg": "Tuyệt vời quá anh Huy ơi, chuẩn bị lên đồ đi thôii! 🎓🔥",
     "sadMsg": "Ơ anh Huy không đi thật sao? Team sẽ nhớ anh nhiều lắm đó! 😢"
   },
   {
     "id": "nhat_quang",
     "name": "Nhat Quang",
-    "role": "Sunlight",
+    "role": "Human Sunshine",
     "successMsg": "Chào mừng anh Quang! Ngày đặc biệt này không thể thiếu anh được! 🎓🌟",
     "sadMsg": "Buồn quá anh Quang ơi, không có anh thì ai làm sáng bừng sân khấu đây? 😢"
   },
@@ -44,7 +44,7 @@
   {
     "id": "nhat_minh",
     "name": "Nhat Minh",
-    "role": "Sieu dai kien tuong",
+    "role": "Chess Final Boss",
     "successMsg": "Có Minh là thấy vui rồi nè! Sẵn sàng tỏa sáng thôi bạn ơi! 🎓⚡",
     "sadMsg": "Sao lại vắng mặt thế Minh ơi? Team mong gặp bạn lắm đó! 😢"
   },
@@ -86,14 +86,14 @@
   {
     "id": "gia_nguyen",
     "name": "Gia Nguyen",
-    "role": "Chua bat lore",
+    "role": "Lore Not Found Yet",
     "successMsg": "Gia Nguyên đã sẵn sàng đi rồi ư! Cùng nhau bước sang trang mới thôi nào! 🎓📖",
     "sadMsg": "Gia Nguyên lỡ hẹn rồi sao? Chúc bạn luôn thành công vsà sớm gặp lại! 😢"
   },
   {
     "id": "thanh_thien",
     "name": "Thanh Thien",
-    "role": "Khach moi dac biet",
+    "role": "Special Guest",
     "successMsg": "Làm sao anh đi được??? 🎓🏫",
     "sadMsg": "Thật tiếc quá anh Thiên ơi, tụi em mong gặp anh để chúc mừng quá đi mất! 😢"
   }
