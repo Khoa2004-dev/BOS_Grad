@@ -32,7 +32,7 @@
 /* Team Grid Selection */
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
   gap: 20px;
 }
 
@@ -301,5 +301,16 @@ select:focus, textarea:focus {
 @keyframes fall {
   to {
     transform: translateY(100vh);
+  }
+}
+
+@media (max-width: 600px) {
+  .radio-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-wrapper {
+    padding: 25px 20px;
   }
 }

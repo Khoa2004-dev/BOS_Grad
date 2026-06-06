@@ -153,11 +153,17 @@ button {
 }
 
 @media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
   .brand-name {
     font-size: 1.1rem;
   }
   .nav-menu {
     gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .nav-rsvp-btn {
     padding: 6px 14px;
